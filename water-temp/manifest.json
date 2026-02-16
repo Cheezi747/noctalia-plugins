@@ -1,0 +1,22 @@
+{
+  "id": "water-temp",
+  "name": "Water Temperature",
+  "version": "1.3.0",
+  "description": "Displays D5 Next coolant temp, pump RPM, and fan RPM in the bar",
+  "tags": ["Monitoring", "Utility"],
+  "minNoctaliaVersion": "4.4.1",
+  "author": "cheezi",
+  "license": "MIT",
+  "entryPoints": {
+    "main": "Main.qml",
+    "barWidget": "BarWidget.qml"
+  },
+  "dependencies": {
+    "plugins": []
+  },
+  "metadata": {
+    "defaultSettings": {
+      "pollingInterval": 5
+    }
+  }
+}
